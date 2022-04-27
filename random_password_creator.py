@@ -3,7 +3,7 @@ key_list = ["a","b","c","d","e","f","g","h","i","j",
             "k","l","m","n","o","p","q","r","s","t",
             "u","v","w","y","z","x"]
 spec_char_list = [".",":",",","*",";","/","+","-","%"]
-for x in range(15):
+for x in range(1500):
     password = ""
     for i in range(random.randint(8, 20)):
         if random.randint(1, 5) == 1:
